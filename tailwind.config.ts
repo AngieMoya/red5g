@@ -25,7 +25,8 @@ const config: Config = {
         large: "2.5rem"
       },
       boxShadow:{
-        '3xl': '0px 0px 16px rgba(0, 0, 0, 0.16)'
+        '3xl': '0px 0px 16px rgba(0, 0, 0, 0.16)',
+        'blue': '0px 3px 16px rgba(209, 232, 255, 0.45)'
       },
       width:{
         '400': '25rem',

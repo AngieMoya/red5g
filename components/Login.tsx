@@ -1,42 +1,37 @@
 import Image from 'next/image';
 import Input from './Input';
-import ImageBg1 from 'next/image';
-import ImageBg2 from 'next/image';
-import ImageBg3 from 'next/image';
-import ImageBg4 from 'next/image';
-import ImageBg5 from 'next/image';
-import ImageBg6 from 'next/image';
+
 
 export default function Login() {
     return (
         <>
             <form className='relative'>
-                <ImageBg1 className='absolute bottom-[344px] -left-[126px] max-w-none -z-10'
+                <Image className='absolute bottom-[344px] -left-[126px] max-w-none -z-10'
                     src="assets/images/Grupo_36052.svg"
                     height={22.895}
                     width={60.749}
                     alt="Your background image" />
-                <ImageBg6 className='absolute top-[486px] -right-[120px] max-w-none -z-10'
+                <Image className='absolute top-[486px] -right-[120px] max-w-none -z-10'
                     src="assets/images/Grupo_36052.svg"
                     height={22.895}
                     width={60.749}
                     alt="Your background image" />
-                <ImageBg2 className='absolute bottom-[254px] -left-[154px] max-w-none -z-10'
+                <Image className='absolute bottom-[254px] -left-[154px] max-w-none -z-10'
                     src="assets/images/Elipse_216.svg"
                     height={8}
                     width={8}
                     alt="Your background image" />
-                <ImageBg5 className='absolute top-[423px] -right-[132px] max-w-none -z-10'
+                <Image className='absolute top-[423px] -right-[132px] max-w-none -z-10'
                     src="assets/images/Elipse_216.svg"
                     height={8}
                     width={8}
                     alt="Your background image" />
-                <ImageBg3 className='fixed -bottom-[324px] -left-[149px] max-w-none -z-20'
+                <Image className='fixed -bottom-[324px] -left-[149px] max-w-none -z-20'
                     src="assets/images/Grupo_32966.svg"
                     height={702.382}
                     width={719.265}
                     alt="Your background image" />
-                <ImageBg4 className='fixed -top-[117px] -right-[286px] max-w-none -z-20'
+                <Image className='fixed -top-[117px] -right-[286px] max-w-none -z-20'
                     src="assets/images/Grupo_32967.svg"
                     height={702.382}
                     width={719.265}
