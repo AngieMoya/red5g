@@ -15,7 +15,8 @@ const config: Config = {
       'gray-light': '#00000029',
       'gray-light-variant': '#ABB9C780',
       'gray-variant': '#ABB9C7',
-      'gray': '#707070'
+      'gray': '#707070',
+      'smoke-white':'#FAFAFA'
     },
     extend: {
       fontFamily: {
